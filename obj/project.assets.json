@@ -1,0 +1,339 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Iced/1.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Iced.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Iced.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {},
+          "lib/netstandard2.0/Mono.Cecil.dll": {}
+        }
+      },
+      "NuclearPowered.AssemblyUnhollower/0.4.15": {
+        "type": "package",
+        "dependencies": {
+          "Iced": "1.10.0",
+          "Mono.Cecil": "0.11.3"
+        },
+        "compile": {
+          "lib/net5.0/AssemblyUnhollower.dll": {},
+          "lib/net5.0/UnhollowerBaseLib.dll": {},
+          "lib/net5.0/UnhollowerRuntimeLib.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/AssemblyUnhollower.dll": {},
+          "lib/net5.0/UnhollowerBaseLib.dll": {},
+          "lib/net5.0/UnhollowerRuntimeLib.dll": {}
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Windows.Extensions/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Windows.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iced/1.10.0": {
+      "sha512": "8qWgWoUUZpPjTx/FbxYmEQqLRJ8vQFzsbotWEFR/zLrNjGJEz19trKnINiG9swNiCwDRogfc2L4Meq0CuTlJIA==",
+      "type": "package",
+      "path": "iced/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "iced.1.10.0.nupkg.sha512",
+        "iced.nuspec",
+        "lib/net45/Iced.dll",
+        "lib/net45/Iced.xml",
+        "lib/netstandard2.0/Iced.dll",
+        "lib/netstandard2.0/Iced.xml",
+        "lib/netstandard2.1/Iced.dll",
+        "lib/netstandard2.1/Iced.xml",
+        "logo.png"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Mono.Cecil/0.11.3": {
+      "sha512": "DNYE+io5XfEE8+E+5padThTPHJARJHbz1mhbhMPNrrWGKVKKqj/KEeLvbawAmbIcT73NuxLV7itHZaYCZcVWGg==",
+      "type": "package",
+      "path": "mono.cecil/0.11.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.3.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "NuclearPowered.AssemblyUnhollower/0.4.15": {
+      "sha512": "g4o75+BiVIp7lnGrp05mghzGF2i8NjmzXncMp9p3J35H28iOrrg3LIQ7hpFkz99twa6kOBO+3Siaa3sKNk6RoA==",
+      "type": "package",
+      "path": "nuclearpowered.assemblyunhollower/0.4.15",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/AssemblyUnhollower.exe",
+        "lib/net472/UnhollowerBaseLib.dll",
+        "lib/net472/UnhollowerRuntimeLib.dll",
+        "lib/net5.0/AssemblyUnhollower.dll",
+        "lib/net5.0/AssemblyUnhollower.runtimeconfig.json",
+        "lib/net5.0/UnhollowerBaseLib.dll",
+        "lib/net5.0/UnhollowerRuntimeLib.dll",
+        "lib/netstandard2.1/AssemblyUnhollower.dll",
+        "lib/netstandard2.1/UnhollowerBaseLib.dll",
+        "lib/netstandard2.1/UnhollowerRuntimeLib.dll",
+        "nuclearpowered.assemblyunhollower.0.4.15.nupkg.sha512",
+        "nuclearpowered.assemblyunhollower.nuspec"
+      ]
+    },
+    "System.Drawing.Common/7.0.0": {
+      "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "type": "package",
+      "path": "system.drawing.common/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.xml",
+        "system.drawing.common.7.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Windows.Extensions/7.0.0": {
+      "sha512": "bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
+      "type": "package",
+      "path": "system.windows.extensions/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/System.Windows.Extensions.dll",
+        "lib/net6.0/System.Windows.Extensions.xml",
+        "lib/net7.0/System.Windows.Extensions.dll",
+        "lib/net7.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net6.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net6.0/System.Windows.Extensions.xml",
+        "runtimes/win/lib/net7.0/System.Windows.Extensions.dll",
+        "runtimes/win/lib/net7.0/System.Windows.Extensions.xml",
+        "system.windows.extensions.7.0.0.nupkg.sha512",
+        "system.windows.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "NuclearPowered.AssemblyUnhollower >= 0.4.15",
+      "System.Windows.Extensions >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maart\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\BTD6\\mrbeast\\lasertower.csproj",
+      "projectName": "lasertower",
+      "projectPath": "E:\\BTD6\\mrbeast\\lasertower.csproj",
+      "packagesPath": "C:\\Users\\maart\\.nuget\\packages\\",
+      "outputPath": "E:\\BTD6\\mrbeast\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\maart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "NuclearPowered.AssemblyUnhollower": {
+            "target": "Package",
+            "version": "[0.4.15, )"
+          },
+          "System.Windows.Extensions": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

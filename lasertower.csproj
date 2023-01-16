@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>lasertower</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>lasertower</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="faster.png" />
+      <None Remove="full.png" />
+      <None Remove="Icon.png" />
+      <None Remove="Icy.png" />
+      <None Remove="lasertowerbundle.bundle" />
+      <None Remove="morepower.png" />
+      <None Remove="uranium.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="faster.png" />
+      <EmbeddedResource Include="full.png" />
+      <EmbeddedResource Include="Icon.png" />
+      <EmbeddedResource Include="Icy.png" />
+      <EmbeddedResource Include="morepower.png" />
+      <EmbeddedResource Include="lasertowerbundle.bundle" />
+      <EmbeddedResource Include="uranium.png" />
+    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="NuclearPowered.AssemblyUnhollower" Version="0.4.15" />
+		<PackageReference Include="System.Windows.Extensions" Version="7.0.0" />
+	</ItemGroup>
+
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\net6\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="BloonsTD6 Mod Helper">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\Mods\Btd6ModHelper.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppInterop.Runtime">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNewtonsoft.Json">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNewtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppNinjaKiwi.Common">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Core">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Net.Http">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppSystem.Net.Http.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\net6\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AudioModule">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\Steam\steam games\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>

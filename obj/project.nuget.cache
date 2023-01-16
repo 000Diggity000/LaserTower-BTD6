@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CLqQdbgB357Kn0sFaBwgko3r1HcKlqITKy7RNWOKusS32FZE0KQjmqCHnSC6aVRAyr0+Vso9B6ynivUa5AGgDA==",
+  "success": true,
+  "projectFilePath": "E:\\BTD6\\mrbeast\\lasertower.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maart\\.nuget\\packages\\iced\\1.10.0\\iced.1.10.0.nupkg.sha512",
+    "C:\\Users\\maart\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\maart\\.nuget\\packages\\mono.cecil\\0.11.3\\mono.cecil.0.11.3.nupkg.sha512",
+    "C:\\Users\\maart\\.nuget\\packages\\nuclearpowered.assemblyunhollower\\0.4.15\\nuclearpowered.assemblyunhollower.0.4.15.nupkg.sha512",
+    "C:\\Users\\maart\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\maart\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
